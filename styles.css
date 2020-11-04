@@ -1,0 +1,158 @@
+* {
+  font-family:serif, comic sans MS, cursive, san-serf;
+  font-size  :12pt;
+}
+
+
+
+body {
+  width     :700px;
+  margin    :20px auto;
+  background:#f8f8f8;
+  border    :1px solid #888;
+  
+}
+
+html {
+  background:#fff
+}
+
+img {
+  border            :1px solid black;
+  margin-right      :15px;
+  -moz-box-shadow   :2px 2px 2px #888;
+  -webkit-box-shadow:2px 2px 2px #888;
+  box-shadow        :2px 2px 2px #888;
+}
+
+.username {
+  text-align :center;
+  background :#eb8;
+  color      :#40d;
+  font-family:helvetica;
+  font-size  :20pt;
+  padding    :4px;
+}
+
+#theaterTable a{
+  font-size: 50% !important;
+  font-family: monospace;
+}
+
+#logo, #logo1, #logo2, #logo3, #logo4, #logo5, #logo6 {
+  font-size: 18pt !important;
+  font-family: monospace;
+}
+.username{
+  font-size: 10pt !important;
+  font-family: monospace; 
+}
+.info {
+  font-style :italic;
+  margin     :40px 0px;
+  text-align :center;
+}
+
+.center {
+  text-align:center;
+}
+
+.subhead {
+  font-weight:bold;
+}
+
+.taken, .error {
+  color:red;
+}
+
+.available {
+  color:green;
+}
+
+.whisper {
+  font-style:italic;
+  color     :#006600;
+}
+
+/* Presentation stuff */
+.holder {
+  width: 400px;
+  background: #efefef;
+  padding: 30px 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 20px;  
+  text-align: center;
+}
+#horizontalgap {
+  float: left;
+  overflow: hidden;
+  height: 1px;
+  width: 0px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #4CAF50;} /* Green */
+
+#myInput{
+ 
+
+  width: 100%; /* Full-width */
+  font-size: 100%; /* Increase font-size */
+  padding: 12px 20px 12px 10px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+ 
+  display: block;
+}
+
+#myUL {
+  /* Remove default list styling */
+  
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+#myUL li{
+  display: block;
+  
+}
+#myUL li a {
+  width: 85%;
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 80%; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+#iframediv-container {
+    float:right;
+    
+    width: 90%;
+    height: 100%;
+}
+
+#iframetheater-container {
+    position: relative;
+    top:0;
+    left: 0;
+   
+}
+
